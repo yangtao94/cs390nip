@@ -1,0 +1,24 @@
+Custom neural network
+
+Given that the total image set was 60000*28*28, i chose to flatten the 28*28 to get a 60000*784 data set. This makes the image set more easily represented by the matrix.
+
+
+- started off by defining the sigmoid and sigmoid derivative functions, then began building the neural network
+I changed a bit of forward function first, which was used to feedforward the output.
+I then implemented the backward propagation, which was done while following the lecture slides. The error here is Mean Squared Error. After finding the layer 1 and layer 2 delta, i adjusted the weights accordingly, with a learning rate of 0.1
+
+Training of the network was done in a mini-batch size of 128, and had 20 iterations. The mini-batches were obtained through the batchGenerator function. aftering obtaining the xValues and yValues in each mini-batch, I obtained the output of each layer through the forward pass. Then ran the results back into the backpropagation function to further adjust the weights. 
+
+The entire process was repeated until there were no more data left.
+Using my custom neural network, i was able to get consistent results of 93-94% accuracy using a hidden layer with 30 neurons,epoch = 20 and batch size = 128.
+
+For the Extra credit, I was able to make the network 3 layer, by adding in one more weight and reworking the backward and forward process.
+
+I was able to implement a second activation function (ReLU) but it was underwhelming, and i might have implemented it incorrectly somewhere. 
+
+TF neural network
+batch-size = 128, epochs = 10, dropout = 0.2 accuracy around 98%
+I used the keras library in building the model of the neural network. I adopted the AdamOptimizer from Tensorflow as my optimizer. The loss type was crossentropy. I had 2 hidden layers with 512 neurons each, and the activation for both layers were relu. The output layer had a softmax activation function.
+
+Iris dataset
+- managed to download the IRIS dataset from sklearn, and the results were better when no mini-batch was used. (i.e., minibatch size of 1)
