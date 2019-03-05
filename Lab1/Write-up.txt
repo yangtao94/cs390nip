@@ -1,0 +1,3 @@
+Utilized 6 convolutional layers, increasing the size of the layers from 32 to 64 to 128 with every two layers. Added padding into the layer so as to ensure that the output has the same length as the original input. After every two layers, a max pool is used to down-sample the input representation.
+
+Used 2 core layers, with a dropout of 0.2, batch-size was set at 128.
