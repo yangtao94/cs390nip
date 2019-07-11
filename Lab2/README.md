@@ -128,7 +128,7 @@ Style Image : Van Gogh's Starry Night
 
 <img src = "https://images-na.ssl-images-amazon.com/images/I/61ySbUOxYRL.jpg">
 
-Content Image : Kobe Bryant shooting over 4 defenders like he always do
+Content Image : Kobe Bryant shooting over 3 defenders like he always do
 
 <img src = "https://imgur.com/VqU5YDz.png">
 
