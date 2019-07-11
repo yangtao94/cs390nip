@@ -26,9 +26,6 @@
 - [Deployment](#deployment)
 - [Usage](#usage)
 - [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
-- [Authors](#authors)
 - [Acknowledgments](#acknowledgement)
 
 ## 🧐 About <a name = "about"></a>
@@ -125,19 +122,19 @@ Content Image : Ben Simmons, a NBA player that many believe looks like Mona Lisa
 
 Transferred Image :
 
-<img src = "Lab2/transfer.jpg">
+<img src = "https://imgur.com/O8ITzlW.png">
 
 Style Image : Van Gogh's Starry Night
 
-<img src = "Lab2/style.jpg">
+<img src = "https://images-na.ssl-images-amazon.com/images/I/61ySbUOxYRL.jpg">
 
 Content Image : Kobe Bryant shooting over 4 defenders like he always do
 
-<img src = "Lab2/kobe.jpg">
+<img src = "https://imgur.com/VqU5YDz.png">
 
 Transferred Image:
 
-<img src = "Lab2/kobe9.jpg">
+<img src = "https://imgur.com/K2VhZxz.png">
 
 Make your own!!
 
